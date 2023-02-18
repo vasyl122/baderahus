@@ -1,0 +1,31 @@
+html,
+body {
+   height: 100%;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.main-page {
+   background: linear-gradient(270deg, #A5DEFF 2.13%, #FCFEFF 94.3%);
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.wrapper {
+   width: 1170px;
+   margin: 0 auto;
+}
+
+header {
+   margin: 34px 0px 58px 0px;
+   display: flex;
+}
+
+.logo-text {
+   margin: 0px 0px 0px 18px;
+   max-width: 174px;
+   font-size: 12px;
+   font-weight: 500;
+   line-height: 15px;
+
+}
