@@ -14,11 +14,16 @@ body {
 .wrapper {
    width: 1170px;
    margin: 0 auto;
+   height: 100%;
+   position: relative;
 }
 
 header {
    margin: 34px 0px 58px 0px;
    display: flex;
+   position: absolute;
+   top: 0;
+   left: 0;
 }
 
 .logo-text {
@@ -28,4 +33,115 @@ header {
    font-weight: 500;
    line-height: 15px;
 
+}
+
+.banderogus-cotainer {
+   background-color: #fff;
+   padding: 60px 56px;
+   align-self: center;
+
+}
+
+.banderogus-greeting {
+   color: #181D1F;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   margin-bottom: 16px;
+}
+
+.banderogus-start-text {
+   color: #FF6B0A;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 24px;
+   margin-bottom: 48px;
+}
+
+.banderogus-title {
+   color: #181D1F;
+   font-weight: 600;
+   font-size: 64px;
+   line-height: 72px;
+}
+
+.banderogus-descr {
+   color: #181D1F;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   margin: 24px 0px 48px;
+}
+
+.banderogus-launch {
+   background: #FF6B0A;
+   border-radius: 8px;
+   padding: 12px 24px;
+   color: #fff;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   cursor: pointer;
+}
+
+.main-page-row {
+   display: flex;
+   justify-content: space-between;
+   height: 100%;
+}
+
+.banderogus-images {
+   align-self: flex-end;
+}
+
+.gus-facts {
+   padding: 52px 0 72px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.gus-title {
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 100px;
+   color: #181D1F;
+   margin: 16px 0;
+}
+
+.gus-descr {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   width: 875px;
+   color: #181D1F;
+   text-align: center;
+}
+
+.gus-facts-cotainer {
+   width: 1170px;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.gus-fact-item {
+   width: 33%;
+}
+
+.gus-fact-title {
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   color: #181D1F;
+   margin: 12px 0 32px 0;
+
+}
+
+.gus-fact-descr {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #181D1F;
+   width: 280px;
 }
